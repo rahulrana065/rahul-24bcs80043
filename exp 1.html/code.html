@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Student Registration Form</h2>
+
+  <form action="#" method="post">
+    <!-- Name Field -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required minlength="2" placeholder="Enter your name">
+
+    <!-- Email Field -->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required placeholder="example@email.com">
+
+    <!-- Age Field -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required min="5" max="100" placeholder="Enter your age">
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+  </form>
+
+</body>
+</html>

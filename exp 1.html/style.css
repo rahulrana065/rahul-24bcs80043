@@ -1,0 +1,56 @@
+/* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+
+/* Heading Style */
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Form Styling */
+form {
+  background: white;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Label Styling */
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+input[type="submit"]:hover {
+  background: #218838;
+}
